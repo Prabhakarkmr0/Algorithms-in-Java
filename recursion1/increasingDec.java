@@ -15,13 +15,14 @@ public class increasingDec {
 			return;
 		}
 		
-		if(x==5) {
-			System.out.println(x);
-			incdec(x-1);
+	
 			
-		}	
+			
 		
+		System.out.println(x);
+	
 		incdec(x-1);
+		
 		System.out.println(x);
 		
 			
