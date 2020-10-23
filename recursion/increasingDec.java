@@ -5,13 +5,17 @@ public class increasingDec {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		incdec(5);
+		int n = 5;
+		
+		incDec(n, 1);
+		
+
 
 	}
 	
-	static void incdec(int x) {
+	static void incDec(int n, int i){
 		
-		if(x==0) {
+		if(i==n+1) {
 			return;
 		}
 		
@@ -19,14 +23,15 @@ public class increasingDec {
 			
 			
 		
-		System.out.println(x);
+		System.out.print(i);
 	
-		incdec(x-1);
+		incDec(n,i+1);
 		
-		System.out.println(x);
+		System.out.print(i);
 		
-			
+//		incDec(x-1);
 		
 	}
-
+	
+	
 }
